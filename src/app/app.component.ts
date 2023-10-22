@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Practica_Inc-Dec';
+    num: number = 0;
+  
+    incremento() {
+      this.num++;
+    }
+    decremento() {
+      this.num--;
+    }
 }
